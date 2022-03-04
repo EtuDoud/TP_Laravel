@@ -1,0 +1,251 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Mon top bar */
+
+.banner {
+    background-color: #333;
+}
+
+.top_bar {
+    height: 150px;
+    width: 70%;
+    /* max-width: 1200px;
+    min-width: 400px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_bar .logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: orange;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.top_bar span {
+    color: #0d8eec;
+}
+
+.top_bar nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.top_bar nav .site_map li {
+    margin: 0 10px;
+}
+
+.top_bar nav .site_map li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.top_bar nav .site_map li .actif {
+    color: orange;
+    font-weight: bold;
+}
+
+.top_bar .bouton button {
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #eee;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px;
+    box-shadow: 1px 2px 5px black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.top_bar .bouton .active {
+    background-color: #0d8eec;
+    color: #fff;
+}
+
+.top_bar .bouton button:hover {
+    background-color: #0d8eec;
+    color: #fff;
+}
+
+
+/* section Voiture */
+
+.vehicules {
+    padding: 150px 0px;
+    /* background-color: pink; */
+}
+
+.container_footer,
+.container_vehicules {
+    /* background: #333; */
+    height: auto;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    /* align-items: center;  */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+/* footer */
+
+footer {
+    background: rgb(58, 56, 56);
+    font-size: 2rem;
+    color: white;
+    padding-top: 100px;
+}
+
+.container_footer .contact h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.container_footer h4 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+footer .container_footer .contact,
+footer .container_footer .sitemap {
+    margin-right: 70px;
+}
+
+.container_footer .contact form input,
+.btn,
+textarea {
+    display: block;
+    margin: 15px 0;
+    padding: 15px 30px;
+    font-size: 25px;
+}
+
+.container_footer .contact form button {
+    padding: 10px 30px;
+    color: white;
+    background-color: #0d8eec;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container_footer .sitemap .lien {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.container_footer .sitemap .lien a {
+    text-decoration: none;
+    color: black;
+}
+
+.container_footer .social .logofooter {
+    font-size: 40px;
+    font-weight: 700;
+    color: orange;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.container_footer .social .appel {
+    margin-bottom: 20px;
+}
+
+.container_footer .social img {
+    margin-right: 15px;
+}
+
+.container_footer .social span {
+    color: #0d8eec;
+}
+
+.copyright {
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    padding: 25px;
+    background: #333;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* Media footer */
+
+@media screen and (max-width: 992px) {
+    footer .container_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.carte_vehicule {
+    height: auto;
+    border-radius: 3px;
+    margin: 30px 0px;
+    padding: 40px;
+    /* background: #999; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.carte_vehicule .voiture {
+    border-radius: 5px;
+}
+
+.carte_vehicule .icone {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carte_vehicule .icone .reserve {
+    padding: 10px 15px;
+    background: #0d8eec;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.vehicules .ecrit {
+    padding: 50px 0;
+}
+
+.vehicules .ecrit h1,
+h4 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.vehicules .ecrit h4 {
+    font-size: 50px;
+    font-weight: 500;
+}
