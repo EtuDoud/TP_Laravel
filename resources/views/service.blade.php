@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="carte_vehicule">
-                    <img src="images/banner_section.jpg" alt="" class="voiture" width="500px" height="400px">
+                    <img src="images/3.jpg" alt="" class="voiture" width="500px" height="400px">
                     <div class="icone">
                         <div class="etoile">
                             <i class="fa fa-star" style="font-size: 30px; color: orange;"></i>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="carte_vehicule">
-                    <img src="images/banner_section.jpg" alt="" class="voiture" width="500px" height="400px">
+                    <img src="images/2.jpg" alt="" class="voiture" width="500px" height="400px">
                     <div class="icone">
                         <div class="star">
                             <i class="fa fa-star" style="font-size: 30px; color: orange;"></i>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="carte_vehicule">
-                    <img src="images/banner_section.jpg" alt="" class="voiture" width="500px" height="400px">
+                    <img src="images/3.jpg" alt="" class="voiture" width="500px" height="400px">
                     <div class="icone">
                         <div class="etoile">
                             <i class="fa fa-star" style="font-size: 30px; color: orange;"></i>

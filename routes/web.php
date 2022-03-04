@@ -1,6 +1,8 @@
 <?php
 use App\Http\Controllers\aboutController;
 use App\Http\Controllers\serviceController;
+use App\Http\Controllers\creationController;
+use App\Http\Controllers\voitureController;
 
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +23,5 @@ Route::get('/', function () {
 
 Route::resource('about', aboutController::class);
 Route::resource('service', serviceController::class);
+Route::resource('voiture', voitureController::class);
+

@@ -27,6 +27,7 @@
                         <li><a href="{{route('about.index')}}" class="">About</a></li>
                         <li><a href="{{route('service.index')}}" class="#service">Services</a></li>
                         <li><a href="#" class="#contactus">Contact</a></li>
+                        <li><a href="{{route('voiture.index')}}" class="#service">Voiture</a></li>
                     </ul>
                 </nav>
                 <div class="bouton">
